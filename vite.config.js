@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "/paradigm-schools/",
+  base: "/Paradigm-Schools/",
 })
