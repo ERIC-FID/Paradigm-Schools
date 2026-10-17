@@ -11,7 +11,7 @@ function Header() {
 
   return (
     <>
-      <header className="bg-white px-6 py-4 shadow-sm relative z-30">
+      <header className=" sticky top-0 z-50 bg-white px-6 py-4 shadow-sm">
         <div className="mx-auto flex max-w-7xl items-center justify-between">
           <Link to="/" className="flex gap-3 items-center group">
             <img
@@ -52,7 +52,7 @@ function Header() {
                 location.pathname === "/about" ? "font-semibold text-[#0064C6]" : ""
               }`}
             >
-              About
+              About Us
               {location.pathname === "/about" && (
                 <motion.span
                   layoutId="activeNavIndicator"
@@ -62,12 +62,13 @@ function Header() {
               )}
             </Link>
 
-            <a
+            <Link
+              to="/about#gallery"
               href="#programmes"
               className="relative py-1 text-slate-700 transition-colors duration-300 hover:text-[#0064C6]"
             >
-              Academics
-            </a>
+              Gallery
+            </Link>
             <a
               href="#admissions"
               className="relative py-1 text-slate-700 transition-colors duration-300 hover:text-[#0064C6]"
@@ -124,10 +125,10 @@ function Header() {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ type: "spring", stiffness: 220, damping: 26 }}
-              className="fixed bottom-0 right-0 h-[90%] w-[80%] max-w-80 bg-white z-50 py-4 border-l border-gray-200 md:hidden shadow-2xl flex flex-col"
+              className="fixed bottom-0 right-0 h-[100%] w-[80%] max-w-80 bg-white z-50  border-l border-gray-200 md:hidden shadow-2xl flex flex-col"
             >
               <div className="px-4 py-4 bg-[#172d4a] text-white flex justify-between items-center">
-                <span className="font-semibold text-sm tracking-wide">Paradigm Menu</span>
+                <span className="font-semibold text-sm tracking-wide">Menu</span>
                 <motion.button
                   type="button"
                   whileHover={{ scale: 1.1, rotate: 90 }}
@@ -143,7 +144,7 @@ function Header() {
 
               <div className="px-6 py-6 overflow-y-auto">
                 <motion.nav
-                  className="flex flex-col gap-4 text-large font-semibold"
+                  className="flex flex-col gap-4 text-large"
                   variants={staggerContainer(0.06, 0.05)}
                   initial="hidden"
                   animate="visible"
@@ -172,7 +173,7 @@ function Header() {
                       onClick={() => setopenMenu(false)}
                       className="block py-3 text-[#172d4a] transition-colors hover:text-blue-300"
                     >
-                      About
+                      About Us
                     </Link>
                   </motion.div>
 
@@ -181,13 +182,14 @@ function Header() {
                     className="flex items-center gap-4 text-[#172d4a] border-b border-gray-200 pb-2"
                   >
                     <Images />
-                    <a
+                    <Link
+                      to="/about#gallery"
                       href="#gallery"
                       onClick={() => setopenMenu(false)}
                       className="hover:text-blue-300 transition-colors py-3"
                     >
                       Gallery
-                    </a>
+                    </Link>
                   </motion.div>
 
                   <motion.div
@@ -200,7 +202,7 @@ function Header() {
                       onClick={() => setopenMenu(false)}
                       className="hover:text-blue-300 transition-colors py-3"
                     >
-                      Admission
+                      E-Exam
                     </a>
                   </motion.div>
                 </motion.nav>

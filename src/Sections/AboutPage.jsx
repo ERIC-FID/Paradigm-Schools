@@ -2,6 +2,7 @@ import { ArrowRight, MapPin } from "lucide-react";
 import schoolImage from "../assets/AboutImg.webp";
 import { motion } from "framer-motion";
 import { fadeInLeft, fadeInRight, defaultViewport } from "../utils/animations";
+import { Link } from "react-router-dom";
 
 function AboutSection() {
   return (
@@ -36,25 +37,20 @@ function AboutSection() {
               and character development.
             </p>
 
-            <p className="mt-4 text-base leading-relaxed text-gray-600">
+            <p className="mt-4 text-base leading-relaxed text-gray-600 mb-4">
               We encourage every child to discover their potential,
               build confidence, and develop the knowledge and skills
               needed to succeed.
             </p>
 
-            <motion.a
-              href="/about"
-              whileHover={{ y: -2, scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-              transition={{ duration: 0.2 }}
-              className="group mt-8 inline-flex items-center gap-2 rounded-lg bg-[#0064C6] px-6 py-3 font-semibold text-white transition-colors duration-300 hover:bg-[#0052A3]"
-            >
-              Discover More
-              <ArrowRight
+            <Link
+                to="/about"
+                className="group inline-flex items-center gap-2 rounded-lg bg-[#0064C6] px-6 py-3 font-semibold text-white transition-colors duration-300 hover:bg-[#0052A3]">
+                Discover More
+                <ArrowRight
                 size={18}
-                className="transition-transform duration-300 group-hover:translate-x-1"
-              />
-            </motion.a>
+                className="transition-transform duration-300 group-hover:translate-x-1"/>
+            </Link>
           </motion.div>
 
           {/* RIGHT SIDE: IMAGE CONTAINER */}

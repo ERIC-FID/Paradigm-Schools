@@ -108,7 +108,7 @@ function GallerySection() {
   }, [activeImage]);
 
   return (
-    <section id="gallery" className="bg-white py-16 md:py-24 overflow-hidden">
+    <section id="gallery" className="bg-white scroll-mt-24 py-16 md:py-24 overflow-hidden">
       <div className="mx-auto max-w-7xl px-6 md:px-12">
 
         {/* SECTION HEADING */}

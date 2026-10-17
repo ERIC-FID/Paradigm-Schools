@@ -5,13 +5,15 @@ function Preloader({ onComplete }) {
   const [isLeaving, setIsLeaving] = useState(false);
 
   useEffect(() => {
+    // Start fading out after 4.5 seconds
     const fadeTimer = setTimeout(() => {
       setIsLeaving(true);
-    }, 1200);
+    }, 4500);
 
+    // Completely remove preloader after 5 seconds
     const finishTimer = setTimeout(() => {
       onComplete();
-    }, 1700);
+    }, 5000);
 
     return () => {
       clearTimeout(fadeTimer);
@@ -26,24 +28,22 @@ function Preloader({ onComplete }) {
       }`}
     >
       <div
-        className="flex gap-2"
+        className="flex items-center justify-center gap-3"
         role="status"
         aria-label="Loading"
       >
-        <span
-          className="size-3 animate-ping rounded-full bg-[#0064C6]"
-          aria-hidden="true"
-        ></span>
-
-        <span
-          className="size-3 animate-ping rounded-full bg-[#0064C6] [animation-delay:0.2s]"
-          aria-hidden="true"
-        ></span>
-
-        <span
-          className="size-3 animate-ping rounded-full bg-[#0064C6] [animation-delay:0.4s]"
-          aria-hidden="true"
-        ></span>
+        {[0, 1, 2].map((index) => (
+          <span
+            key={index}
+            className="size-3 animate-ping rounded-full bg-[#0064C6]"
+            style={{
+              animationDelay: `${index * 0.2}s`,
+              animationDuration: "0.8s",
+              animationIterationCount: "infinite",
+            }}
+            aria-hidden="true"
+          />
+        ))}
       </div>
     </div>
   );
