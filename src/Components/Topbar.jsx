@@ -17,7 +17,7 @@ function Topbar() {
             className="flex items-center gap-1.5 hover:text-emerald-400 transition-colors duration-200"
           >
             <Phone className="w-3.5 h-3.5 text-emerald-400" />
-            <span>+234 (0) 800 123 4567</span>
+            <span>+234 (0) 7035380145</span>
           </a>
           <span className="hidden sm:inline text-slate-700">|</span>
           <a
@@ -25,7 +25,7 @@ function Topbar() {
             className="flex items-center gap-1.5 hover:text-emerald-400 transition-colors duration-200"
           >
             <Mail className="w-3.5 h-3.5 text-emerald-400" />
-            <span>admissions@paradigm.edu.ng</span>
+            <span>paradigmschools222@gamil.com</span>
           </a>
           <span className="hidden md:inline text-slate-700">|</span>
           <span className="hidden md:flex items-center gap-1.5 text-slate-400">

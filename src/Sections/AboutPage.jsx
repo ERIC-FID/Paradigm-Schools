@@ -38,7 +38,7 @@ function AboutSection() {
             </p>
 
             <p className="mt-4 text-base leading-relaxed text-gray-600 mb-4">
-              We encourage every child to discover their potential,
+              We encourage every child to discover his or her potential,
               build confidence, and develop the knowledge and skills
               needed to succeed.
             </p>

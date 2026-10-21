@@ -87,7 +87,7 @@ function AchievementsSection() {
             />
 
             <h3 className="text-2xl font-bold md:text-3xl">
-              WAEC-Approved Examination Centre
+              WAEC & NECO Approved Examination Centre
             </h3>
 
             <p className="mt-5 max-w-2xl text-base leading-8 text-slate-200">
@@ -100,14 +100,11 @@ function AchievementsSection() {
             {/* NECO APPROVAL STATUS */}
             <div className="mt-7 rounded-xl border border-white/20 bg-white/10 p-5 backdrop-blur-sm">
               <p className="text-sm font-semibold text-blue-200">
-                Looking Ahead
+                NECO
               </p>
 
               <p className="mt-2 text-sm leading-7 text-slate-200">
-                As part of our continued growth, we are also
-                working towards becoming an approved NECO
-                examination centre, further expanding
-                examination opportunities for our students.
+                In addition to being a WAEC-approved examination centre, Paradigm Schools is also an approved NECO examination centre, further strengthening our commitment to academic excellence and providing students with greater examination opportunities in a conducive and well-equipped learning environment.
               </p>
             </div>
           </div>

@@ -16,6 +16,15 @@ import scienceLab from "../assets/science-laboratory-practicals.webp";
 import certificate from "../assets/certificate-presentation.webp";
 import happyPupils from "../assets/happy-paradigm-pupils.webp";
 import computerLab from "../assets/computer-laboratory.webp";
+import AwardPresentation from "../assets/Award Presentation.webp";
+import spellingbee from "../assets/spellingbee.webp";
+import OldStaff from "../assets/OldStaff.webp";
+import GraduationClassof2014 from  "../assets/GraduationClassof2014.webp";
+import StudentsCelebratingCertificatesandGifts from "../assets/StudentsCelebratingCertificatesandGifts.webp";
+import SpellingBeeAchievement from "../assets/SpellingBeeAchievement.webp";
+import ParadigmOldStaff from "../assets/ParadigmOldStaff.webp";
+import Debate from "../assets/Debate.webp";
+
 
 const galleryImages = [
   {
@@ -52,6 +61,46 @@ const galleryImages = [
     id: 7,
     image: computerLab,
     title: "Our Computer Laboratory",
+  },
+  {
+    id: 8,
+    image: AwardPresentation,
+    title:"Award Presentation",
+  },
+  {
+    id: 9,
+    image:spellingbee,
+    title:"Propietress with the Spelling bee champion",
+  },
+  {
+    id: 10,
+    image:OldStaff,
+    title:"Old Staff of Paradigm Schools",
+  },
+  {
+    id: 11,
+    image:GraduationClassof2014,
+    title:"Graduation Class of 2014",
+  },
+  {
+    id: 12,
+    image:StudentsCelebratingCertificatesandGifts,
+    title:"Students Celebrating Certificates and Gifts"
+  },
+  {
+    id: 13,
+    image:SpellingBeeAchievement,
+    title:"SpellingBee Winner receiving his Award",
+  },
+  {
+    id: 14,
+    image:ParadigmOldStaff,
+    title:"Paradigm Schools Old staff",
+  },
+  {
+    id: 15,
+    image:Debate,
+    title:"Excellence in Debate",
   },
 ];
 
