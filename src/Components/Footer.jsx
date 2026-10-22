@@ -189,7 +189,7 @@ function Footer() {
                   className="mt-1 shrink-0 text-blue-300"
                 />
                 <p className="text-sm leading-7 text-slate-300">
-                  Minna, Niger State, Nigeria
+                  Maitumbi Minna, Niger State, Nigeria
                 </p>
               </div>
 
@@ -199,7 +199,7 @@ function Footer() {
                   className="mt-1 shrink-0 text-blue-300"
                 />
                 <p className="text-sm leading-7 text-slate-300">
-                  Add school phone number
+                  07035380145
                 </p>
               </div>
 
@@ -209,7 +209,7 @@ function Footer() {
                   className="mt-1 shrink-0 text-blue-300"
                 />
                 <p className="text-sm leading-7 text-slate-300">
-                  Add school email address
+                  paradigmschools222@gmail.com
                 </p>
               </div>
 
