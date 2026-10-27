@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 
-
+import PageTitle from "./Components/PageTitle.jsx";
 import Topbar from "./Components/Topbar";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
@@ -17,6 +17,7 @@ function App() {
 
   return (
     <>
+      <PageTitle/>
       <ScrollToTop/>
       {isLoading ? (
         <Preloader onComplete={() => setIsLoading(false)} />

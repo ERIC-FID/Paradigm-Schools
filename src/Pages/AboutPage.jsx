@@ -1,6 +1,6 @@
 
 import AboutHeroSection from "../Sections/Aboutherosection";
-import Leadership from "../Sections/Leadership"
+import Leadership from "../Sections/Leadership";
 import VisionMissionSection from "../Sections/Mission";
 import Gallery from "../Sections/Gallery"
 

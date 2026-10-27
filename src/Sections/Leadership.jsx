@@ -63,7 +63,7 @@ function LeadershipSection() {
             {/* NAVY OVERLAY */}
             <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#172d4a] via-[#172d4a]/90 to-transparent px-6 pb-6 pt-16">
               <h3 className="text-xl font-bold text-white md:text-2xl">
-                Pastor Martins Illelakinwa
+                Pastor Martins Ilelakinwa
               </h3>
 
               <p className="mt-1 text-sm font-medium uppercase tracking-widest text-blue-200">
@@ -181,7 +181,7 @@ function LeadershipSection() {
             {/* NAVY OVERLAY */}
             <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#172d4a] via-[#172d4a]/90 to-transparent px-6 pb-6 pt-16">
               <h3 className="text-xl font-bold text-white md:text-2xl">
-                Mrs. Christiana Olamide Illelakinwa
+                Mrs. Christiana Olamide Ilelakinwa
               </h3>
 
               <p className="mt-1 text-sm font-medium uppercase tracking-widest text-blue-200">

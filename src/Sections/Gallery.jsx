@@ -75,7 +75,7 @@ const galleryImages = [
   {
     id: 10,
     image:OldStaff,
-    title:"Old Staff of Paradigm Schools",
+    title:" Our Humble Beginnings ",
   },
   {
     id: 11,
@@ -95,7 +95,7 @@ const galleryImages = [
   {
     id: 14,
     image:ParadigmOldStaff,
-    title:"Paradigm Schools Old staff",
+    title:"Pioneer Staff",
   },
   {
     id: 15,
