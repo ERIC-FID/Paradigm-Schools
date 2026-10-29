@@ -91,7 +91,7 @@ function AchievementsSection() {
             </h3>
 
             <p className="mt-5 max-w-2xl text-base leading-8 text-slate-200 ">
-              Paradigm Schools has long been recognised as an approved WAEC and NECO examination centre, reflecting our longstanding commitment to academic excellence and quality education. Over the years, our students have consistently recorded impressive performances in these examinations, with many successfully graduating and progressing to higher institutions and various career paths, where they continue to excel. These achievements reflect our dedication to providing quality teaching, effective academic preparation, and a conducive, well-equipped learning environment that empowers students to succeed both academically and beyond the classroom.
+              Paradigm Schools has long been recognised as an approved WAEC and NECO examination centre, reflecting our longstanding commitment to academic excellence and quality education. Over the years, our students have consistently recorded impressive performances in these examinations, with many successfully graduated and progressing to higher institutions and various career paths, where they continue to excel. These achievements reflect our dedication to providing quality teaching, effective academic preparation, and a conducive, well-equipped learning environment that empowers students to succeed both academically and beyond the classroom.
             </p>
 
             
