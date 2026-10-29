@@ -99,8 +99,8 @@ function LeadershipSection() {
                 character, and preparing our students for a
                 successful future. Our journey has been made
                 possible through God's grace, the dedication
-                of our teachers and staff, and the unwavering
-                support of our parents and guardians.
+                of our staff, and the unwavering
+                support of the parents and guardians.
               </p>
 
               <p>
@@ -252,7 +252,7 @@ function LeadershipSection() {
                     <p>
                       As we continue to grow, we remain committed
                       to providing an environment where every
-                      child can discover their potential and
+                      child can discover his or her potentials and
                       achieve excellence.
                     </p>
 
