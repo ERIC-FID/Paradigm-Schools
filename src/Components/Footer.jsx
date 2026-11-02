@@ -106,7 +106,7 @@ function Footer() {
               At Paradigm Schools, we are committed to
               providing quality education, building strong
               character, and inspiring every child to
-              achieve their full potential.
+              achieve his or her full potentials.
             </p>
 
             {/* SOCIAL MEDIA */}
