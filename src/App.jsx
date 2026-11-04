@@ -10,6 +10,7 @@ import Preloader from "./Components/Preloader";
 
 import HomePage from "./Pages/HomePage.jsx";
 import AboutPage from "./Pages/AboutPage.jsx";
+import ContactPage from "./Pages/ContactPage.jsx";
 import ScrollToTop from "./Components/ScrollToTop.jsx";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
 
           <Footer />

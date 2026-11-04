@@ -9,8 +9,8 @@ import {
   defaultViewport,
 } from "../utils/animations";
 
-import proprietorImg from "../assets/proprietor.webp";
-import proprietressImg from "../assets/proprietress.webp";
+import proprietorImg from "../assets/proprietorr.webp";
+import proprietressImg from "../assets/propreitresss.webp";
 
 function LeadershipSection() {
   const [showProprietor, setShowProprietor] = useState(false);
@@ -61,15 +61,7 @@ function LeadershipSection() {
             />
 
             {/* NAVY OVERLAY */}
-            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#172d4a] via-[#172d4a]/90 to-transparent px-6 pb-6 pt-16">
-              <h3 className="text-xl font-bold text-white md:text-2xl">
-                Pastor Martins Ilelakinwa
-              </h3>
-
-              <p className="mt-1 text-sm font-medium uppercase tracking-widest text-blue-200">
-                Proprietor
-              </p>
-            </div>
+           
           </motion.div>
 
           {/* PROPRIETOR MESSAGE: Reveals from the right */}
@@ -178,16 +170,8 @@ function LeadershipSection() {
               className="h-full w-full object-cover object-top transition-transform duration-700 hover:scale-105"
             />
 
-            {/* NAVY OVERLAY */}
-            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#172d4a] via-[#172d4a]/90 to-transparent px-6 pb-6 pt-16">
-              <h3 className="text-xl font-bold text-white md:text-2xl">
-                Mrs. Christiana Olamide Ilelakinwa
-              </h3>
 
-              <p className="mt-1 text-sm font-medium uppercase tracking-widest text-blue-200">
-                Proprietress
-              </p>
-            </div>
+           
           </motion.div>
 
           {/* PROPRIETRESS MESSAGE: Reveals from the left */}
